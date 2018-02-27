@@ -16,7 +16,7 @@
  
  <h2>Setup</h2>
  
- Setting up a custom .keylayout is very simple—all you need to do is drag the intended file to ~/Library/Input Sources (Command-G also speeds this up), and open it from System Preferences. After adding it, open it from System Preferences > Keyboard > Input Sources, and select it. It should be under "Others." I would also recommend enabling the keyboard shortcut for switching keyboard, I use Command-ESC, but I think you can set it to whatever. This is because, occasionally, your input source will be changed by a document, or your computer won't recognize it properly. It happens infrequently, but it's good to be able to switch if need be.
+ Setting up a custom .keylayout is very simple—all you need to do is drag the intended file to ~/Library/Input Sources (Shift-Command-G also speeds this up), and open it from System Preferences. After adding it, open it from System Preferences > Keyboard > Input Sources, and select it. It should be under "Others." I would also recommend enabling the keyboard shortcut for switching keyboard, I use Command-ESC, but I think you can set it to whatever. This is because, occasionally, your input source will be changed by a document, or your computer won't recognize it properly. It happens infrequently, but it's good to be able to switch if need be.
  
  <h2>Known Issues (& Workarounds)</h2>
 
