@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-09-08 at 13:19 (GMT+5:30)-->
-<keyboard group="126" id="-13336" name="Cute" maxout="10">
+<!--Last edited by Ukelele version 3.2.7.195 on 2019-04-03 at 17:46 (GMT+5:30)-->
+<keyboard group="126" id="-27442" name="Cute" maxout="10">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -395,13 +395,13 @@
 			<key code="13" output="∑"/>
 			<key code="14" action="0"/>
 			<key code="15" output="®"/>
-			<key code="16" output=""/>
+			<key code="16" output="ρ"/>
 			<key code="17" output="θ"/>
 			<key code="18" output="¡"/>
 			<key code="19" output="™"/>
 			<key code="20" output="£"/>
 			<key code="21" output="¢"/>
-			<key code="22" output=""/>
+			<key code="22" output="₹"/>
 			<key code="23" output="∞"/>
 			<key code="24" output="≠"/>
 			<key code="25" output=""/>
@@ -500,7 +500,7 @@
 			<key code="6" output="[&#x0027;&#x0027;•-•]"/>
 			<key code="7" output="[•-•&#x0027;&#x0027;]"/>
 			<key code="8" output="୧[•-•]୨"/>
-			<key code="9" output="[ᯎ_ᯎ]"/>
+			<key code="9" output="[•⥐•]"/>
 			<key code="10" output="±"/>
 			<key code="11" output="⸐[•-•]⸑"/>
 			<key code="12" output="[•-•]7"/>
@@ -523,7 +523,7 @@
 			<key code="29" output="›"/>
 			<key code="30" output=""/>
 			<key code="31" output=""/>
-			<key code="32" output=""/>
+			<key code="32" output="[•-•]ፓ"/>
 			<key code="33" output=""/>
 			<key code="34" output=""/>
 			<key code="35" output=""/>
