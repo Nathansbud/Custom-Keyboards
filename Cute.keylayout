@@ -1,10 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-09 at 19:01 (PDT)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-12 at 22:33 (PDT)-->
 <!---->
 <!---->
 <!---->
-<keyboard group="126" id="-5798" name="Cute" maxout="10">
+<keyboard group="126" id="-13713" name="Cute" maxout="10">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
         <layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -408,7 +408,7 @@
             <key code="23" output="∞"/>
             <key code="24" output="≠"/>
             <key code="25" output=""/>
-            <key code="26" output=""/>
+            <key code="26" output="æ"/>
             <key code="27" output="—"/>
             <key code="28" output="•"/>
             <key code="29" output="°"/>
@@ -421,7 +421,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output="λ"/>
             <key code="38" output="∆"/>
-            <key code="39" output="æ"/>
+            <key code="39" output=":weary:"/>
             <key code="40" output="ω"/>
             <key code="41" output="¬"/>
             <key code="42" output="«"/>
@@ -520,7 +520,7 @@
             <key code="23" output="⸜[•-•]⸝"/>
             <key code="24" output="±"/>
             <key code="25" output="‹"/>
-            <key code="26" output=""/>
+            <key code="26" output="Æ"/>
             <key code="27" output="—"/>
             <key code="28" output=""/>
             <key code="29" output="›"/>
@@ -533,7 +533,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output=""/>
             <key code="38" output=""/>
-            <key code="39" output="Æ"/>
+            <key code="39" output=""/>
             <key code="40" output=""/>
             <key code="41" output=""/>
             <key code="42" output="»"/>

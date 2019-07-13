@@ -1,10 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Big Daddy-->
-<!---->
-<!---->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-09 at 18:58 (PDT)-->
-<keyboard group="126" id="-14609" name="Emoji" maxout="2">
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-12 at 22:09 (PDT)-->
+<keyboard group="126" id="-9695" name="Emoji" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -261,7 +259,7 @@
             <key code="8" output="💩"/>
             <key code="9" output="🤮"/>
             <key code="11" output="🦴"/>
-            <key code="12" output="🏳️‍🌈"/>
+            <key code="12" output="🏳‍🌈"/>
             <key code="13" output="😩"/>
             <key code="14" output="🍆"/>
             <key code="15" output="🌈"/>
