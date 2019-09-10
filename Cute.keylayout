@@ -1,10 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-12 at 22:33 (PDT)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-09-09 at 23:06 (GMT+5:30)-->
 <!---->
 <!---->
 <!---->
-<keyboard group="126" id="-13713" name="Cute" maxout="10">
+<keyboard group="126" id="-7539" name="Cute" maxout="10">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
         <layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -409,13 +409,13 @@
             <key code="24" output="≠"/>
             <key code="25" output=""/>
             <key code="26" output="æ"/>
-            <key code="27" output="—"/>
+            <key code="27" output="–"/>
             <key code="28" output="•"/>
             <key code="29" output="°"/>
-            <key code="30" output="‘"/>
+            <key code="30" output="↑"/>
             <key code="31" output="ø"/>
             <key code="32" action="3"/>
-            <key code="33" output="“"/>
+            <key code="33" output="→"/>
             <key code="34" action="2"/>
             <key code="35" output="π"/>
             <key code="36" output="&#x000D;"/>
@@ -524,10 +524,10 @@
             <key code="27" output="—"/>
             <key code="28" output=""/>
             <key code="29" output="›"/>
-            <key code="30" output=""/>
+            <key code="30" output="↓"/>
             <key code="31" output=""/>
             <key code="32" output="[•-•]ፓ"/>
-            <key code="33" output=""/>
+            <key code="33" output="←"/>
             <key code="34" output=""/>
             <key code="35" output=""/>
             <key code="36" output="&#x000D;"/>
@@ -636,10 +636,10 @@
             <key code="27" output="–"/>
             <key code="28" output="•"/>
             <key code="29" output="º"/>
-            <key code="30" output="‘"/>
+            <key code="30" output="↓"/>
             <key code="31" output="Ø"/>
             <key code="32" output="¨"/>
-            <key code="33" output="“"/>
+            <key code="33" output="←"/>
             <key code="34" output="ˆ"/>
             <key code="35" output="∏"/>
             <key code="36" output="&#x000D;"/>
