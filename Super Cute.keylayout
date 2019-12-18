@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Keylayout which exploits dead key states to embed many things (greek letters, emoji, emotes, text macros...) into a single keyboard, rather than needing many...god bless dead key states!-->
 <!---->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-12-18 at 19:25 (GMT+3)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-12-18 at 20:39 (GMT+3)-->
 <keyboard group="126" id="-26139" name="Super Cute" maxout="8">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -301,7 +301,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="action 14"/>
             <key code="38" action="action 16"/>
-            <key code="39" output=""/>
+            <key code="39" output=":weary:"/>
             <key code="40" action="action 15"/>
             <key code="41" output=""/>
             <key code="42" output=""/>
@@ -1120,193 +1120,193 @@
     <actions>
         <action id=",">
             <when state="none" output=","/>
-            <when state="MATH_SET" output="&#x2264;"/>
+            <when state="Math" output="&#x2264;"/>
         </action>
         <action id=".">
             <when state="none" output="."/>
-            <when state="MATH_SET" output="&#x2265;"/>
+            <when state="Math" output="&#x2265;"/>
         </action>
         <action id="/">
             <when state="none" output="/"/>
-            <when state="MATH_SET" output="&#x00F7;"/>
+            <when state="Math" output="&#x00F7;"/>
         </action>
         <action id="0">
             <when state="none" output="0"/>
-            <when state="MATH_SET" output="0"/>
+            <when state="Math" output="0"/>
         </action>
         <action id="1">
             <when state="none" output="1"/>
-            <when state="MATH_SET" output="1"/>
+            <when state="Math" output="1"/>
         </action>
         <action id="2">
             <when state="none" output="2"/>
-            <when state="MATH_SET" output="2"/>
+            <when state="Math" output="2"/>
         </action>
         <action id="3">
             <when state="none" output="3"/>
-            <when state="MATH_SET" output="3"/>
+            <when state="Math" output="3"/>
         </action>
         <action id="4">
             <when state="none" output="4"/>
-            <when state="MATH_SET" output="4"/>
+            <when state="Math" output="4"/>
         </action>
         <action id="5">
             <when state="none" output="5"/>
-            <when state="MATH_SET" output="5"/>
+            <when state="Math" output="5"/>
         </action>
         <action id="6">
             <when state="none" output="6"/>
-            <when state="MATH_SET" output="6"/>
+            <when state="Math" output="6"/>
         </action>
         <action id="7">
             <when state="none" output="7"/>
-            <when state="MATH_SET" output="7"/>
+            <when state="Math" output="7"/>
         </action>
         <action id="8">
             <when state="none" output="8"/>
-            <when state="MATH_SET" output="8"/>
+            <when state="Math" output="8"/>
         </action>
         <action id="9">
             <when state="none" output="9"/>
-            <when state="MATH_SET" output="9"/>
+            <when state="Math" output="9"/>
         </action>
         <action id="=">
             <when state="none" output="="/>
-            <when state="MATH_SET" output="&#x2260;"/>
+            <when state="Math" output="&#x2260;"/>
         </action>
         <action id="A">
             <when state="none" output="A"/>
             <when state="Acute" output="&#x00C1;"/>
             <when state="Circumflex" output="&#x00C2;"/>
-            <when state="GREEK_LETTERS" output="&#x0391;"/>
             <when state="Grave" output="&#x00C0;"/>
+            <when state="Greek" output="&#x0391;"/>
             <when state="Tilde" output="&#x00C3;"/>
             <when state="Umlaut" output="&#x00C4;"/>
         </action>
         <action id="B">
             <when state="none" output="B"/>
-            <when state="GREEK_LETTERS" output="&#x0392;"/>
+            <when state="Greek" output="&#x0392;"/>
         </action>
         <action id="C">
             <when state="none" output="C"/>
-            <when state="GREEK_LETTERS" output="&#x03A8;"/>
+            <when state="Greek" output="&#x03A8;"/>
         </action>
         <action id="D">
             <when state="none" output="D"/>
-            <when state="GREEK_LETTERS" output="&#x0394;"/>
+            <when state="Greek" output="&#x0394;"/>
         </action>
         <action id="E">
             <when state="none" output="E"/>
             <when state="Acute" output="&#x00C9;"/>
             <when state="Circumflex" output="&#x00CA;"/>
-            <when state="GREEK_LETTERS" output="&#x0395;"/>
             <when state="Grave" output="&#x00C8;"/>
+            <when state="Greek" output="&#x0395;"/>
             <when state="Umlaut" output="&#x00CB;"/>
         </action>
         <action id="F">
             <when state="none" output="F"/>
-            <when state="GREEK_LETTERS" output="&#x03A6;"/>
+            <when state="Greek" output="&#x03A6;"/>
         </action>
         <action id="FOOD_EMOJI">
-            <when state="none" next="FOOD_EMOJI"/>
-            <when state="EMOTE_SET" output="&#x256D;[&#x2022;-&#x2022;]&#x256E;"/>
-            <when state="FOOD_EMOJI" output="FOOD"/>
-            <when state="GREEK_LETTERS" output="&#x03C6;"/>
+            <when state="none" next="Food"/>
+            <when state="Emote" output="&#x256D;[&#x2022;-&#x2022;]&#x256E;"/>
+            <when state="Food" output="FOOD"/>
+            <when state="Greek" output="&#x03C6;"/>
         </action>
         <action id="G">
             <when state="none" output="G"/>
-            <when state="GREEK_LETTERS" output="&#x0393;"/>
+            <when state="Greek" output="&#x0393;"/>
         </action>
         <action id="GREEK_LETTERS">
-            <when state="none" next="GREEK_LETTERS"/>
-            <when state="EMOTE_SET" output="&#x2E0C;[&#x2022;-&#x2022;]&#x2E0D;"/>
-            <when state="GREEK_LETTERS" output="&#x03B3;"/>
+            <when state="none" next="Greek"/>
+            <when state="Emote" output="&#x2E0C;[&#x2022;-&#x2022;]&#x2E0D;"/>
+            <when state="Greek" output="&#x03B3;"/>
         </action>
         <action id="H">
             <when state="none" output="H"/>
-            <when state="GREEK_LETTERS" output="&#x0397;"/>
+            <when state="Greek" output="&#x0397;"/>
         </action>
         <action id="I">
             <when state="none" output="I"/>
             <when state="Acute" output="&#x00CD;"/>
             <when state="Circumflex" output="&#x00CE;"/>
-            <when state="GREEK_LETTERS" output="&#x0399;"/>
             <when state="Grave" output="&#x00CC;"/>
+            <when state="Greek" output="&#x0399;"/>
             <when state="Umlaut" output="&#x00CF;"/>
         </action>
         <action id="J">
             <when state="none" output="J"/>
-            <when state="GREEK_LETTERS" output="&#x039E;"/>
+            <when state="Greek" output="&#x039E;"/>
         </action>
         <action id="K">
             <when state="none" output="K"/>
-            <when state="GREEK_LETTERS" output="&#x039A;"/>
+            <when state="Greek" output="&#x039A;"/>
         </action>
         <action id="L">
             <when state="none" output="L"/>
-            <when state="GREEK_LETTERS" output="&#x039B;"/>
+            <when state="Greek" output="&#x039B;"/>
         </action>
         <action id="M">
             <when state="none" output="M"/>
-            <when state="GREEK_LETTERS" output="&#x039C;"/>
+            <when state="Greek" output="&#x039C;"/>
         </action>
         <action id="N">
             <when state="none" output="N"/>
-            <when state="GREEK_LETTERS" output="&#x039D;"/>
+            <when state="Greek" output="&#x039D;"/>
             <when state="Tilde" output="&#x00D1;"/>
         </action>
         <action id="O">
             <when state="none" output="O"/>
             <when state="Acute" output="&#x00D3;"/>
             <when state="Circumflex" output="&#x00D4;"/>
-            <when state="GREEK_LETTERS" output="&#x039F;"/>
             <when state="Grave" output="&#x00D2;"/>
+            <when state="Greek" output="&#x039F;"/>
             <when state="Tilde" output="&#x00D5;"/>
             <when state="Umlaut" output="&#x00D6;"/>
         </action>
         <action id="P">
             <when state="none" output="P"/>
-            <when state="GREEK_LETTERS" output="&#x03A0;"/>
+            <when state="Greek" output="&#x03A0;"/>
         </action>
         <action id="R">
             <when state="none" output="R"/>
-            <when state="GREEK_LETTERS" output="&#x03A1;"/>
+            <when state="Greek" output="&#x03A1;"/>
         </action>
         <action id="S">
             <when state="none" output="S"/>
-            <when state="GREEK_LETTERS" output="&#x03A3;"/>
+            <when state="Greek" output="&#x03A3;"/>
         </action>
         <action id="T">
             <when state="none" output="T"/>
-            <when state="GREEK_LETTERS" output="&#x03A4;"/>
+            <when state="Greek" output="&#x03A4;"/>
         </action>
         <action id="U">
             <when state="none" output="U"/>
             <when state="Acute" output="&#x00DA;"/>
             <when state="Circumflex" output="&#x00DB;"/>
-            <when state="GREEK_LETTERS" output="&#x0398;"/>
             <when state="Grave" output="&#x00D9;"/>
+            <when state="Greek" output="&#x0398;"/>
             <when state="Umlaut" output="&#x00DC;"/>
         </action>
         <action id="V">
             <when state="none" output="V"/>
-            <when state="GREEK_LETTERS" output="&#x03A9;"/>
+            <when state="Greek" output="&#x03A9;"/>
         </action>
         <action id="W">
             <when state="none" output="W"/>
         </action>
         <action id="X">
             <when state="none" output="X"/>
-            <when state="GREEK_LETTERS" output="&#x03A7;"/>
+            <when state="Greek" output="&#x03A7;"/>
         </action>
         <action id="Y">
             <when state="none" output="Y"/>
-            <when state="GREEK_LETTERS" output="&#x03A5;"/>
+            <when state="Greek" output="&#x03A5;"/>
             <when state="Umlaut" output="&#x0178;"/>
         </action>
         <action id="Z">
             <when state="none" output="Z"/>
-            <when state="GREEK_LETTERS" output="&#x0396;"/>
+            <when state="Greek" output="&#x0396;"/>
         </action>
         <action id="]">
             <when state="none" output="]"/>
@@ -1318,460 +1318,460 @@
             <when state="none" output="a"/>
             <when state="Acute" output="&#x00E1;"/>
             <when state="Circumflex" output="&#x00E2;"/>
-            <when state="EMOTE_SET" output="&#x291A;[&#x2022;-&#x2022;]&#x2919; "/>
-            <when state="FOOD_EMOJI" output="&#x1F34E;"/>
-            <when state="GREEK_LETTERS" output="&#x03B1;"/>
+            <when state="Emote" output="&#x291A;[&#x2022;-&#x2022;]&#x2919; "/>
+            <when state="Food" output="&#x1F34E;"/>
             <when state="Grave" output="&#x00E0;"/>
+            <when state="Greek" output="&#x03B1;"/>
             <when state="Tilde" output="&#x00E3;"/>
             <when state="Umlaut" output="&#x00E4;"/>
         </action>
         <action id="action">
-            <when state="none" next="EMOTE_SET"/>
-            <when state="EMOTE_SET" output="~[&#x2022;-&#x2022;]~"/>
-            <when state="FOOD_EMOJI" output="&#x1F377;"/>
-            <when state="GREEK_LETTERS" output="&#x03B4;"/>
-            <when state="MATH_SET" output="&#x2202;"/>
+            <when state="none" next="Emote"/>
+            <when state="Emote" output="~[&#x2022;-&#x2022;]~"/>
+            <when state="Food" output="&#x1F377;"/>
+            <when state="Greek" output="&#x03B4;"/>
+            <when state="Math" output="&#x2202;"/>
         </action>
         <action id="action 1">
             <when state="none" output=""/>
-            <when state="FOOD_EMOJI" output="&#x1F378;"/>
-            <when state="GREEK_LETTERS" output="&#x0394;"/>
+            <when state="Food" output="&#x1F378;"/>
+            <when state="Greek" output="&#x0394;"/>
         </action>
         <action id="action 10">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="[&#x0027;&#x0027;&#x2022;-&#x2022;]"/>
-            <when state="GREEK_LETTERS" output="&#x03B6;"/>
+            <when state="Emote" output="[&#x0027;&#x0027;&#x2022;-&#x2022;]"/>
+            <when state="Greek" output="&#x03B6;"/>
         </action>
         <action id="action 11">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="[&#x2022;-&#x2022;&#x0027;&#x0027;]"/>
-            <when state="GREEK_LETTERS" output="&#x03C7;"/>
-            <when state="MATH_SET" output="&#x2248;"/>
+            <when state="Emote" output="[&#x2022;-&#x2022;&#x0027;&#x0027;]"/>
+            <when state="Greek" output="&#x03C7;"/>
+            <when state="Math" output="&#x2248;"/>
         </action>
         <action id="action 12">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="[&#x2022;&#x2950;&#x2022;]"/>
-            <when state="GREEK_LETTERS" output="&#x03C9;"/>
-            <when state="MATH_SET" output="&#x221A;"/>
+            <when state="Emote" output="[&#x2022;&#x2950;&#x2022;]"/>
+            <when state="Greek" output="&#x03C9;"/>
+            <when state="Math" output="&#x221A;"/>
         </action>
         <action id="action 13">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03BC;"/>
+            <when state="Greek" output="&#x03BC;"/>
         </action>
         <action id="action 14">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03BB;"/>
+            <when state="Greek" output="&#x03BB;"/>
         </action>
         <action id="action 15">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03BA;"/>
+            <when state="Greek" output="&#x03BA;"/>
         </action>
         <action id="action 16">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03BE;"/>
+            <when state="Greek" output="&#x03BE;"/>
         </action>
         <action id="action 17">
-            <when state="none" next="MATH_SET"/>
-            <when state="EMOTE_SET" output="&#x2E1C;[&#x2022;-&#x2022;]&#x2E1D;"/>
-            <when state="GREEK_LETTERS" output="&#x03B7;"/>
-            <when state="MATH_SET" output="&#x222B;"/>
+            <when state="none" next="Math"/>
+            <when state="Emote" output="&#x2E1C;[&#x2022;-&#x2022;]&#x2E1D;"/>
+            <when state="Greek" output="&#x03B7;"/>
+            <when state="Math" output="&#x222B;"/>
         </action>
         <action id="action 18">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="\[&#x2022;-&#x2022;]/"/>
-            <when state="GREEK_LETTERS" output="&#x03C5;"/>
+            <when state="Emote" output="\[&#x2022;-&#x2022;]/"/>
+            <when state="Greek" output="&#x03C5;"/>
         </action>
         <action id="action 19">
             <when state="none" next="Umlaut"/>
-            <when state="GREEK_LETTERS" output="&#x03B8;"/>
+            <when state="Greek" output="&#x03B8;"/>
         </action>
         <action id="action 2">
             <when state="none" next="Tilde"/>
-            <when state="EMOTE_SET" output="[&#x2022;-&#x2022;]"/>
-            <when state="FOOD_EMOJI" output="&#x1F95C;"/>
-            <when state="GREEK_LETTERS" output="&#x03BD;"/>
+            <when state="Emote" output="[&#x2022;-&#x2022;]"/>
+            <when state="Food" output="&#x1F95C;"/>
+            <when state="Greek" output="&#x03BD;"/>
         </action>
         <action id="action 20">
             <when state="none" next="Circumflex"/>
-            <when state="GREEK_LETTERS" output="&#x03B9;"/>
+            <when state="Greek" output="&#x03B9;"/>
         </action>
         <action id="action 21">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03BF;"/>
-            <when state="MATH_SET" output="&#x00BA;"/>
+            <when state="Greek" output="&#x03BF;"/>
+            <when state="Math" output="&#x00BA;"/>
         </action>
         <action id="action 22">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03C0;"/>
-            <when state="MATH_SET" output="&#x221D;"/>
+            <when state="Greek" output="&#x03C0;"/>
+            <when state="Math" output="&#x221D;"/>
         </action>
         <action id="action 23">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0391;"/>
+            <when state="Greek" output="&#x0391;"/>
         </action>
         <action id="action 24">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0392;"/>
+            <when state="Greek" output="&#x0392;"/>
         </action>
         <action id="action 25">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A8;"/>
+            <when state="Greek" output="&#x03A8;"/>
         </action>
         <action id="action 26">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A7;"/>
+            <when state="Greek" output="&#x03A7;"/>
         </action>
         <action id="action 27">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0396;"/>
+            <when state="Greek" output="&#x0396;"/>
         </action>
         <action id="action 28">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A0;"/>
+            <when state="Greek" output="&#x03A0;"/>
         </action>
         <action id="action 29">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x039F;"/>
+            <when state="Greek" output="&#x039F;"/>
         </action>
         <action id="action 3">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="&#x291A;[&#x2022;-&#x2022;]&#x2919; "/>
-            <when state="GREEK_LETTERS" output="&#x03B1;"/>
+            <when state="Emote" output="&#x291A;[&#x2022;-&#x2022;]&#x2919; "/>
+            <when state="Greek" output="&#x03B1;"/>
         </action>
         <action id="action 30">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0399;"/>
+            <when state="Greek" output="&#x0399;"/>
         </action>
         <action id="action 31">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x039A;"/>
+            <when state="Greek" output="&#x039A;"/>
         </action>
         <action id="action 32">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x039B;"/>
+            <when state="Greek" output="&#x039B;"/>
         </action>
         <action id="action 33">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x039E;"/>
+            <when state="Greek" output="&#x039E;"/>
         </action>
         <action id="action 34">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0397;"/>
+            <when state="Greek" output="&#x0397;"/>
         </action>
         <action id="action 35">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A4;"/>
+            <when state="Greek" output="&#x03A4;"/>
         </action>
         <action id="action 36">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A5;"/>
+            <when state="Greek" output="&#x03A5;"/>
         </action>
         <action id="action 37">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0398;"/>
+            <when state="Greek" output="&#x0398;"/>
         </action>
         <action id="action 38">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A9;"/>
+            <when state="Greek" output="&#x03A9;"/>
         </action>
         <action id="action 39">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x039D;"/>
+            <when state="Greek" output="&#x039D;"/>
         </action>
         <action id="action 4">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="&#x2E10;[&#x2022;-&#x2022;]&#x2E11;"/>
-            <when state="GREEK_LETTERS" output="&#x03B2;"/>
+            <when state="Emote" output="&#x2E10;[&#x2022;-&#x2022;]&#x2E11;"/>
+            <when state="Greek" output="&#x03B2;"/>
         </action>
         <action id="action 40">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x039C;"/>
+            <when state="Greek" output="&#x039C;"/>
         </action>
         <action id="action 41">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0393;"/>
+            <when state="Greek" output="&#x0393;"/>
         </action>
         <action id="action 42">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A6;"/>
+            <when state="Greek" output="&#x03A6;"/>
         </action>
         <action id="action 43">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A3;"/>
+            <when state="Greek" output="&#x03A3;"/>
         </action>
         <action id="action 44">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x0395;"/>
+            <when state="Greek" output="&#x0395;"/>
         </action>
         <action id="action 45">
             <when state="none" output=""/>
-            <when state="GREEK_LETTERS" output="&#x03A1;"/>
+            <when state="Greek" output="&#x03A1;"/>
         </action>
         <action id="action 46">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="&#x2514;[&#x2022;-&#x2022;]&#x2518;"/>
-            <when state="GREEK_LETTERS" output="&#x03C2;"/>
+            <when state="Emote" output="&#x2514;[&#x2022;-&#x2022;]&#x2518;"/>
+            <when state="Greek" output="&#x03C2;"/>
         </action>
         <action id="action 47">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="[&#x2022;-&#x2022;]7"/>
+            <when state="Emote" output="[&#x2022;-&#x2022;]7"/>
         </action>
         <action id="action 48">
             <when state="none" output=""/>
         </action>
         <action id="action 49">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="0"/>
+            <when state="Math" output="0"/>
         </action>
         <action id="action 5">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="&#x0B67;[&#x2022;-&#x2022;]&#x0B68;"/>
-            <when state="GREEK_LETTERS" output="&#x03C8;"/>
-            <when state="MATH_SET" output="&#x2234;"/>
+            <when state="Emote" output="&#x0B67;[&#x2022;-&#x2022;]&#x0B68;"/>
+            <when state="Greek" output="&#x03C8;"/>
+            <when state="Math" output="&#x2234;"/>
         </action>
         <action id="action 50">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="2"/>
+            <when state="Math" output="2"/>
         </action>
         <action id="action 51">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="3"/>
+            <when state="Math" output="3"/>
         </action>
         <action id="action 52">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="4"/>
+            <when state="Math" output="4"/>
         </action>
         <action id="action 53">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="5"/>
+            <when state="Math" output="5"/>
         </action>
         <action id="action 54">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="6"/>
+            <when state="Math" output="6"/>
         </action>
         <action id="action 55">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="7"/>
+            <when state="Math" output="7"/>
         </action>
         <action id="action 56">
             <when state="none" output=""/>
-            <when state="MATH_SET" output="9"/>
+            <when state="Math" output="9"/>
         </action>
         <action id="action 6">
             <when state="none" next="Acute"/>
-            <when state="EMOTE_SET" output="/[&#x2022;-&#x2022;]\"/>
-            <when state="GREEK_LETTERS" output="&#x03B5;"/>
+            <when state="Emote" output="/[&#x2022;-&#x2022;]\"/>
+            <when state="Greek" output="&#x03B5;"/>
         </action>
         <action id="action 7">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="&#x239D;[&#x2022;-&#x2022;]&#x23A0;"/>
-            <when state="GREEK_LETTERS" output="&#x03C1;"/>
+            <when state="Emote" output="&#x239D;[&#x2022;-&#x2022;]&#x23A0;"/>
+            <when state="Greek" output="&#x03C1;"/>
         </action>
         <action id="action 8">
             <when state="none" output=""/>
-            <when state="EMOTE_SET" output="&#x2570;[&#x2022;-&#x2022;]&#x256F;"/>
-            <when state="GREEK_LETTERS" output="&#x03C4;"/>
+            <when state="Emote" output="&#x2570;[&#x2022;-&#x2022;]&#x256F;"/>
+            <when state="Greek" output="&#x03C4;"/>
         </action>
         <action id="action 9">
             <when state="none" output="S"/>
-            <when state="EMOTE_SET" output="&#x27C5;[&#x2022;-&#x2022;]&#x27C6;"/>
-            <when state="GREEK_LETTERS" output="&#x03C3;"/>
+            <when state="Emote" output="&#x27C5;[&#x2022;-&#x2022;]&#x27C6;"/>
+            <when state="Greek" output="&#x03C3;"/>
         </action>
         <action id="b">
             <when state="none" output="n"/>
-            <when state="EMOTE_SET" output="&#x2E10;[&#x2022;-&#x2022;]&#x2E11;"/>
-            <when state="FOOD_EMOJI" output="&#x1F32F;"/>
-            <when state="GREEK_LETTERS" output="&#x03B2;"/>
+            <when state="Emote" output="&#x2E10;[&#x2022;-&#x2022;]&#x2E11;"/>
+            <when state="Food" output="&#x1F32F;"/>
+            <when state="Greek" output="&#x03B2;"/>
         </action>
         <action id="c">
             <when state="none" output="c"/>
-            <when state="EMOTE_SET" output="&#x0B67;[&#x2022;-&#x2022;]&#x0B68;"/>
-            <when state="FOOD_EMOJI" output="&#x1F36A;"/>
-            <when state="GREEK_LETTERS" output="&#x03C8;"/>
-            <when state="MATH_SET" output="&#x2234;"/>
+            <when state="Emote" output="&#x0B67;[&#x2022;-&#x2022;]&#x0B68;"/>
+            <when state="Food" output="&#x1F36A;"/>
+            <when state="Greek" output="&#x03C8;"/>
+            <when state="Math" output="&#x2234;"/>
         </action>
         <action id="d">
             <when state="none" output="d"/>
-            <when state="EMOTE_SET" output="~[&#x2022;-&#x2022;]~"/>
-            <when state="FOOD_EMOJI" output="&#x1F37A;"/>
-            <when state="GREEK_LETTERS" output="&#x03B4;"/>
-            <when state="MATH_SET" output="&#x2202;"/>
+            <when state="Emote" output="~[&#x2022;-&#x2022;]~"/>
+            <when state="Food" output="&#x1F37A;"/>
+            <when state="Greek" output="&#x03B4;"/>
+            <when state="Math" output="&#x2202;"/>
         </action>
         <action id="e">
             <when state="none" output="e"/>
             <when state="Acute" output="&#x00E9;"/>
             <when state="Circumflex" output="&#x00EA;"/>
-            <when state="EMOTE_SET" output="/[&#x2022;-&#x2022;]\"/>
-            <when state="FOOD_EMOJI" output="&#x1F346;"/>
-            <when state="GREEK_LETTERS" output="&#x03B5;"/>
+            <when state="Emote" output="/[&#x2022;-&#x2022;]\"/>
+            <when state="Food" output="&#x1F346;"/>
             <when state="Grave" output="&#x00E8;"/>
+            <when state="Greek" output="&#x03B5;"/>
             <when state="Umlaut" output="&#x00EB;"/>
         </action>
         <action id="f">
             <when state="none" output="f"/>
-            <when state="EMOTE_SET" output="&#x256D;[&#x2022;-&#x2022;]&#x256E;"/>
-            <when state="FOOD_EMOJI" output="&#x1F35F;"/>
-            <when state="GREEK_LETTERS" output="&#x03C6;"/>
+            <when state="Emote" output="&#x256D;[&#x2022;-&#x2022;]&#x256E;"/>
+            <when state="Food" output="&#x1F35F;"/>
+            <when state="Greek" output="&#x03C6;"/>
         </action>
         <action id="g">
             <when state="none" output="g"/>
-            <when state="EMOTE_SET" output="&#x2E0C;[&#x2022;-&#x2022;]&#x2E0D;"/>
-            <when state="GREEK_LETTERS" output="&#x03B3;"/>
+            <when state="Emote" output="&#x2E0C;[&#x2022;-&#x2022;]&#x2E0D;"/>
+            <when state="Greek" output="&#x03B3;"/>
         </action>
         <action id="h">
             <when state="none" output="h"/>
-            <when state="EMOTE_SET" output="&#x2E1C;[&#x2022;-&#x2022;]&#x2E1D;"/>
-            <when state="GREEK_LETTERS" output="&#x03B7;"/>
-            <when state="MATH_SET" output="&#x222B;"/>
+            <when state="Emote" output="&#x2E1C;[&#x2022;-&#x2022;]&#x2E1D;"/>
+            <when state="Greek" output="&#x03B7;"/>
+            <when state="Math" output="&#x222B;"/>
         </action>
         <action id="h 1">
             <when state="none" output="h"/>
-            <when state="EMOTE_SET" output="&#x2E1C;[&#x2022;-&#x2022;]&#x2E1D;"/>
-            <when state="GREEK_LETTERS" output="&#x03B7;"/>
-            <when state="MATH_SET" output="&#x222B;"/>
+            <when state="Emote" output="&#x2E1C;[&#x2022;-&#x2022;]&#x2E1D;"/>
+            <when state="Greek" output="&#x03B7;"/>
+            <when state="Math" output="&#x222B;"/>
         </action>
         <action id="i">
             <when state="none" output="i"/>
             <when state="Acute" output="&#x00ED;"/>
             <when state="Circumflex" output="&#x00EE;"/>
-            <when state="GREEK_LETTERS" output="&#x03B9;"/>
             <when state="Grave" output="&#x00EC;"/>
+            <when state="Greek" output="&#x03B9;"/>
             <when state="Umlaut" output="&#x00EF;"/>
         </action>
         <action id="j">
             <when state="none" output="j"/>
-            <when state="FOOD_EMOJI" output="&#x1F34C;"/>
-            <when state="GREEK_LETTERS" output="&#x03BE;"/>
+            <when state="Food" output="&#x1F34C;"/>
+            <when state="Greek" output="&#x03BE;"/>
         </action>
         <action id="k">
             <when state="none" output="k"/>
-            <when state="FOOD_EMOJI" output="&#x1F95D;"/>
-            <when state="GREEK_LETTERS" output="&#x03BA;"/>
+            <when state="Food" output="&#x1F95D;"/>
+            <when state="Greek" output="&#x03BA;"/>
         </action>
         <action id="l">
             <when state="none" output="l"/>
-            <when state="FOOD_EMOJI" output="&#x1F34B;"/>
-            <when state="GREEK_LETTERS" output="&#x03BB;"/>
+            <when state="Food" output="&#x1F34B;"/>
+            <when state="Greek" output="&#x03BB;"/>
         </action>
         <action id="m">
             <when state="none" output="m"/>
-            <when state="GREEK_LETTERS" output="&#x03BC;"/>
+            <when state="Greek" output="&#x03BC;"/>
         </action>
         <action id="n">
             <when state="none" output="n"/>
-            <when state="EMOTE_SET" output="[&#x2022;-&#x2022;]"/>
-            <when state="FOOD_EMOJI" output="&#x1F352;"/>
-            <when state="GREEK_LETTERS" output="&#x03BD;"/>
+            <when state="Emote" output="[&#x2022;-&#x2022;]"/>
+            <when state="Food" output="&#x1F352;"/>
+            <when state="Greek" output="&#x03BD;"/>
             <when state="Tilde" output="&#x00F1;"/>
         </action>
         <action id="o">
             <when state="none" output="o"/>
             <when state="Acute" output="&#x00F3;"/>
             <when state="Circumflex" output="&#x00F4;"/>
-            <when state="FOOD_EMOJI" output="&#x1F95A;"/>
-            <when state="GREEK_LETTERS" output="&#x03BF;"/>
+            <when state="Food" output="&#x1F95A;"/>
             <when state="Grave" output="&#x00F2;"/>
-            <when state="MATH_SET" output="&#x00BA;"/>
+            <when state="Greek" output="&#x03BF;"/>
+            <when state="Math" output="&#x00BA;"/>
             <when state="Tilde" output="&#x00F5;"/>
             <when state="Umlaut" output="&#x00F6;"/>
         </action>
         <action id="p">
             <when state="none" output="p"/>
-            <when state="FOOD_EMOJI" output="&#x1F351;"/>
-            <when state="GREEK_LETTERS" output="&#x03C0;"/>
-            <when state="MATH_SET" output="&#x221D;"/>
+            <when state="Food" output="&#x1F351;"/>
+            <when state="Greek" output="&#x03C0;"/>
+            <when state="Math" output="&#x221D;"/>
         </action>
         <action id="q">
             <when state="none" output="q"/>
-            <when state="EMOTE_SET" output="[&#x2022;-&#x2022;]7"/>
+            <when state="Emote" output="[&#x2022;-&#x2022;]7"/>
         </action>
         <action id="r">
             <when state="none" output="r"/>
-            <when state="EMOTE_SET" output="&#x239D;[&#x2022;-&#x2022;]&#x23A0;"/>
-            <when state="GREEK_LETTERS" output="&#x03C1;"/>
+            <when state="Emote" output="&#x239D;[&#x2022;-&#x2022;]&#x23A0;"/>
+            <when state="Greek" output="&#x03C1;"/>
         </action>
         <action id="s">
             <when state="none" output="s"/>
-            <when state="EMOTE_SET" output="&#x27C5;[&#x2022;-&#x2022;]&#x27C6;"/>
-            <when state="FOOD_EMOJI" output="&#x1F944;"/>
-            <when state="GREEK_LETTERS" output="&#x03C3;"/>
+            <when state="Emote" output="&#x27C5;[&#x2022;-&#x2022;]&#x27C6;"/>
+            <when state="Food" output="&#x1F944;"/>
+            <when state="Greek" output="&#x03C3;"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
-            <when state="EMOTE_SET" output="&#x2570;[&#x2022;-&#x2022;]&#x256F;"/>
-            <when state="FOOD_EMOJI" output="&#x1F32E;"/>
-            <when state="GREEK_LETTERS" output="&#x03C4;"/>
+            <when state="Emote" output="&#x2570;[&#x2022;-&#x2022;]&#x256F;"/>
+            <when state="Food" output="&#x1F32E;"/>
+            <when state="Greek" output="&#x03C4;"/>
         </action>
         <action id="u">
             <when state="none" output="u"/>
             <when state="Acute" output="&#x00FA;"/>
             <when state="Circumflex" output="&#x00FB;"/>
-            <when state="GREEK_LETTERS" output="&#x03B8;"/>
             <when state="Grave" output="&#x00F9;"/>
+            <when state="Greek" output="&#x03B8;"/>
             <when state="Umlaut" output="&#x00FC;"/>
         </action>
         <action id="v">
             <when state="none" output="v"/>
-            <when state="EMOTE_SET" output="[&#x2022;&#x2950;&#x2022;]"/>
-            <when state="GREEK_LETTERS" output="&#x03C9;"/>
-            <when state="MATH_SET" output="&#x221A;"/>
+            <when state="Emote" output="[&#x2022;&#x2950;&#x2022;]"/>
+            <when state="Greek" output="&#x03C9;"/>
+            <when state="Math" output="&#x221A;"/>
         </action>
         <action id="w">
             <when state="none" output="w"/>
-            <when state="EMOTE_SET" output="&#x2514;[&#x2022;-&#x2022;]&#x2518;"/>
-            <when state="FOOD_EMOJI" output="&#x1F349;"/>
-            <when state="GREEK_LETTERS" output="&#x03C2;"/>
+            <when state="Emote" output="&#x2514;[&#x2022;-&#x2022;]&#x2518;"/>
+            <when state="Food" output="&#x1F349;"/>
+            <when state="Greek" output="&#x03C2;"/>
         </action>
         <action id="x">
             <when state="none" output="x"/>
-            <when state="EMOTE_SET" output="[&#x2022;-&#x2022;&#x0027;&#x0027;]"/>
-            <when state="GREEK_LETTERS" output="&#x03C7;"/>
-            <when state="MATH_SET" output="&#x2248;"/>
+            <when state="Emote" output="[&#x2022;-&#x2022;&#x0027;&#x0027;]"/>
+            <when state="Greek" output="&#x03C7;"/>
+            <when state="Math" output="&#x2248;"/>
         </action>
         <action id="y">
             <when state="none" output="y"/>
-            <when state="EMOTE_SET" output="\[&#x2022;-&#x2022;]/"/>
-            <when state="GREEK_LETTERS" output="&#x03C5;"/>
+            <when state="Emote" output="\[&#x2022;-&#x2022;]/"/>
+            <when state="Greek" output="&#x03C5;"/>
             <when state="Umlaut" output="&#x00FF;"/>
         </action>
         <action id="z">
             <when state="none" output="z"/>
-            <when state="EMOTE_SET" output="[&#x0027;&#x0027;&#x2022;-&#x2022;]"/>
-            <when state="GREEK_LETTERS" output="&#x03B6;"/>
+            <when state="Emote" output="[&#x0027;&#x0027;&#x2022;-&#x2022;]"/>
+            <when state="Greek" output="&#x03B6;"/>
         </action>
         <action id="&#x00A1;">
             <when state="none" output="&#x00A1;"/>
-            <when state="MATH_SET" output="1"/>
+            <when state="Math" output="1"/>
         </action>
         <action id="&#x00BF;">
             <when state="none" output="&#x00BF;"/>
-            <when state="MATH_SET" output="&#x00F7;"/>
+            <when state="Math" output="&#x00F7;"/>
         </action>
         <action id="&#x2022;">
             <when state="none" output="&#x2022;"/>
-            <when state="MATH_SET" output="8"/>
+            <when state="Math" output="8"/>
         </action>
         <action id="&#x2260;">
             <when state="none" output="&#x2260;"/>
-            <when state="MATH_SET" output="&#x2260;"/>
+            <when state="Math" output="&#x2260;"/>
         </action>
         <action id="&#x2264;">
             <when state="none" output="&#x2264;"/>
-            <when state="MATH_SET" output="&#x2264;"/>
+            <when state="Math" output="&#x2264;"/>
         </action>
         <action id="&#x2265;">
             <when state="none" output="&#x2265;"/>
-            <when state="MATH_SET" output="&#x2265;"/>
+            <when state="Math" output="&#x2265;"/>
         </action>
     </actions>
     <terminators>
         <when state="Acute" output="&#x00B4;"/>
         <when state="Circumflex" output="&#x02C6;"/>
-        <when state="EMOTE_SET" output="E"/>
-        <when state="FOOD_EMOJI" output="F"/>
-        <when state="GREEK_LETTERS" output="J"/>
+        <when state="Emote" output="E"/>
+        <when state="Food" output="F"/>
         <when state="Grave" output="`"/>
-        <when state="MATH_SET" output="M"/>
+        <when state="Greek" output="G"/>
+        <when state="Math" output="M"/>
         <when state="Tilde" output="&#x02DC;"/>
         <when state="Umlaut" output="&#x00A8;"/>
     </terminators>
