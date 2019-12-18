@@ -2,8 +2,8 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Keylayout which exploits dead key states to embed many things (greek letters, emoji, emotes, text macros...) into a single keyboard, rather than needing many...god bless dead key states!-->
 <!---->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-12-18 at 18:22 (GMT+3)-->
-<keyboard group="126" id="-8896" name="Super Cute" maxout="5">
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-12-18 at 18:37 (GMT+3)-->
+<keyboard group="126" id="-8896" name="Super Cute" maxout="8">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -81,7 +81,7 @@
             <key code="26" output="7"/>
             <key code="27" output="-"/>
             <key code="28" output="8"/>
-            <key code="29" output="0"/>
+            <key code="29" action="0"/>
             <key code="30" output="]"/>
             <key code="31" action="o"/>
             <key code="32" action="u"/>
@@ -95,11 +95,11 @@
             <key code="40" action="k"/>
             <key code="41" output=";"/>
             <key code="42" output="\"/>
-            <key code="43" output=","/>
+            <key code="43" action=","/>
             <key code="44" output="/"/>
             <key code="45" action="n"/>
             <key code="46" action="m"/>
-            <key code="47" output="."/>
+            <key code="47" action="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
             <key code="50" output="`"/>
@@ -274,7 +274,7 @@
             <key code="8" action="action 5"/>
             <key code="9" action="action 12"/>
             <key code="11" action="action 4"/>
-            <key code="12" output=""/>
+            <key code="12" action="action 47"/>
             <key code="13" action="action 46"/>
             <key code="14" action="action 6"/>
             <key code="15" action="action 7"/>
@@ -291,7 +291,7 @@
             <key code="26" output=""/>
             <key code="27" output="–"/>
             <key code="28" output=""/>
-            <key code="29" output=""/>
+            <key code="29" action="action 49"/>
             <key code="30" output=""/>
             <key code="31" action="action 21"/>
             <key code="32" action="action 19"/>
@@ -305,11 +305,11 @@
             <key code="40" action="action 15"/>
             <key code="41" output=""/>
             <key code="42" output=""/>
-            <key code="43" output="≤"/>
+            <key code="43" action="≤"/>
             <key code="44" output=""/>
             <key code="45" action="action 2"/>
             <key code="46" action="action 13"/>
-            <key code="47" output="≥"/>
+            <key code="47" action="≥"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=""/>
             <key code="50" output=""/>
@@ -396,7 +396,7 @@
             <key code="26" output=""/>
             <key code="27" output="—"/>
             <key code="28" output=""/>
-            <key code="29" output=""/>
+            <key code="29" action="action 48"/>
             <key code="30" output=""/>
             <key code="31" action="action 29"/>
             <key code="32" action="action 37"/>
@@ -1055,6 +1055,18 @@
         </keyMap>
     </keyMapSet>
     <actions>
+        <action id=",">
+            <when state="none" output=","/>
+            <when state="MATH_SET" output="≤"/>
+        </action>
+        <action id=".">
+            <when state="none" output="."/>
+            <when state="MATH_SET" output="≥"/>
+        </action>
+        <action id="0">
+            <when state="none" output="0"/>
+            <when state="MATH_SET" output="º"/>
+        </action>
         <action id="A">
             <when state="none" output="A"/>
             <when state="GREEK_LETTERS" output="Α"/>
@@ -1165,6 +1177,7 @@
         </action>
         <action id="a">
             <when state="none" output="a"/>
+            <when state="EMOTE_SET" output="⤚[•-•]⤙ "/>
             <when state="FOOD_EMOJI" output="🍎"/>
             <when state="GREEK_LETTERS" output="α"/>
         </action>
@@ -1172,6 +1185,7 @@
             <when state="none" next="EMOTE_SET"/>
             <when state="FOOD_EMOJI" output="🍷"/>
             <when state="GREEK_LETTERS" output="δ"/>
+            <when state="MATH_SET" output="∂"/>
         </action>
         <action id="action 1">
             <when state="none" output=""/>
@@ -1185,10 +1199,12 @@
         <action id="action 11">
             <when state="none" output=""/>
             <when state="GREEK_LETTERS" output="χ"/>
+            <when state="MATH_SET" output="≈"/>
         </action>
         <action id="action 12">
             <when state="none" output=""/>
             <when state="GREEK_LETTERS" output="ω"/>
+            <when state="MATH_SET" output="√"/>
         </action>
         <action id="action 13">
             <when state="none" output=""/>
@@ -1209,6 +1225,7 @@
         <action id="action 17">
             <when state="none" next="MATH_SET"/>
             <when state="GREEK_LETTERS" output="η"/>
+            <when state="MATH_SET" output="∫"/>
         </action>
         <action id="action 18">
             <when state="none" output=""/>
@@ -1234,6 +1251,7 @@
         <action id="action 22">
             <when state="none" output=""/>
             <when state="GREEK_LETTERS" output="π"/>
+            <when state="MATH_SET" output="∝"/>
         </action>
         <action id="action 23">
             <when state="none" output=""/>
@@ -1339,9 +1357,21 @@
             <when state="none" output=""/>
             <when state="GREEK_LETTERS" output="ς"/>
         </action>
+        <action id="action 47">
+            <when state="none" output=""/>
+        </action>
+        <action id="action 48">
+            <when state="none" output=""/>
+            <when state="MATH_SET" output="º"/>
+        </action>
+        <action id="action 49">
+            <when state="none" output=""/>
+            <when state="MATH_SET" output="º"/>
+        </action>
         <action id="action 5">
             <when state="none" output=""/>
             <when state="GREEK_LETTERS" output="ψ"/>
+            <when state="MATH_SET" output="∴"/>
         </action>
         <action id="action 6">
             <when state="none" output=""/>
@@ -1361,36 +1391,46 @@
         </action>
         <action id="b">
             <when state="none" output="b"/>
+            <when state="EMOTE_SET" output="⸐[•-•]⸑"/>
             <when state="FOOD_EMOJI" output="🌯"/>
             <when state="GREEK_LETTERS" output="β"/>
         </action>
         <action id="c">
             <when state="none" output="c"/>
+            <when state="EMOTE_SET" output="୧[•-•]୨"/>
             <when state="FOOD_EMOJI" output="🍪"/>
             <when state="GREEK_LETTERS" output="ψ"/>
+            <when state="MATH_SET" output="∴"/>
         </action>
         <action id="d">
             <when state="none" output="d"/>
+            <when state="EMOTE_SET" output="~[•-•]~"/>
             <when state="FOOD_EMOJI" output="🍺"/>
             <when state="GREEK_LETTERS" output="δ"/>
+            <when state="MATH_SET" output="∂"/>
         </action>
         <action id="e">
             <when state="none" output="e"/>
+            <when state="EMOTE_SET" output="/[•-•]\"/>
             <when state="FOOD_EMOJI" output="🍆"/>
             <when state="GREEK_LETTERS" output="ε"/>
         </action>
         <action id="f">
             <when state="none" output="f"/>
+            <when state="EMOTE_SET" output="╭[•-•]╮"/>
             <when state="FOOD_EMOJI" output="🍟"/>
             <when state="GREEK_LETTERS" output="φ"/>
         </action>
         <action id="g">
             <when state="none" output="g"/>
+            <when state="EMOTE_SET" output="⸌[•-•]⸍"/>
             <when state="GREEK_LETTERS" output="γ"/>
         </action>
         <action id="h">
             <when state="none" output="h"/>
+            <when state="EMOTE_SET" output="⸜[•-•]⸝"/>
             <when state="GREEK_LETTERS" output="η"/>
+            <when state="MATH_SET" output="∫"/>
         </action>
         <action id="i">
             <when state="none" output="i"/>
@@ -1417,6 +1457,7 @@
         </action>
         <action id="n">
             <when state="none" output="n"/>
+            <when state="EMOTE_SET" output="[•-•]"/>
             <when state="FOOD_EMOJI" output="🍒"/>
             <when state="GREEK_LETTERS" output="ν"/>
         </action>
@@ -1429,21 +1470,26 @@
             <when state="none" output="p"/>
             <when state="FOOD_EMOJI" output="🍑"/>
             <when state="GREEK_LETTERS" output="π"/>
+            <when state="MATH_SET" output="∝"/>
         </action>
         <action id="q">
             <when state="none" output="q"/>
+            <when state="EMOTE_SET" output="[•-•]7"/>
         </action>
         <action id="r">
             <when state="none" output="r"/>
+            <when state="EMOTE_SET" output="⎝[•-•]⎠"/>
             <when state="GREEK_LETTERS" output="ρ"/>
         </action>
         <action id="s">
             <when state="none" output="s"/>
+            <when state="EMOTE_SET" output="⟅[•-•]⟆"/>
             <when state="FOOD_EMOJI" output="🥄"/>
             <when state="GREEK_LETTERS" output="σ"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
+            <when state="EMOTE_SET" output="╰[•-•]╯"/>
             <when state="FOOD_EMOJI" output="🌮"/>
             <when state="GREEK_LETTERS" output="τ"/>
         </action>
@@ -1453,24 +1499,39 @@
         </action>
         <action id="v">
             <when state="none" output="v"/>
+            <when state="EMOTE_SET" output="[•⥐•]"/>
             <when state="GREEK_LETTERS" output="ω"/>
+            <when state="MATH_SET" output="√"/>
         </action>
         <action id="w">
             <when state="none" output="w"/>
+            <when state="EMOTE_SET" output="└[•-•]┘"/>
             <when state="FOOD_EMOJI" output="🍉"/>
             <when state="GREEK_LETTERS" output="ς"/>
         </action>
         <action id="x">
             <when state="none" output="x"/>
+            <when state="EMOTE_SET" output="[•-•&#x0027;&#x0027;]"/>
             <when state="GREEK_LETTERS" output="χ"/>
+            <when state="MATH_SET" output="≈"/>
         </action>
         <action id="y">
             <when state="none" output="y"/>
+            <when state="EMOTE_SET" output="\[•-•]/"/>
             <when state="GREEK_LETTERS" output="υ"/>
         </action>
         <action id="z">
             <when state="none" output="z"/>
+            <when state="EMOTE_SET" output="[&#x0027;&#x0027;•-•]"/>
             <when state="GREEK_LETTERS" output="ζ"/>
+        </action>
+        <action id="≤">
+            <when state="none" output="≤"/>
+            <when state="MATH_SET" output="≤"/>
+        </action>
+        <action id="≥">
+            <when state="none" output="≥"/>
+            <when state="MATH_SET" output="≥"/>
         </action>
     </actions>
     <terminators>
