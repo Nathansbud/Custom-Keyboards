@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Keylayout which exploits dead key states to embed many things (greek letters, emoji, emotes, text macros...) into a single keyboard, rather than needing many...god bless dead key states!-->
 <!---->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-12-18 at 22:13 (GMT+3)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-12-19 at 18:37 (GMT+3)-->
 <keyboard group="126" id="-1493" name="Super Cute" maxout="8">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -1700,7 +1700,7 @@
             <when state="Math" output="&#x22C3;"/>
         </action>
         <action id="b">
-            <when state="none" output="n"/>
+            <when state="none" output="b"/>
             <when state="Emoji" output="&#x1F576;"/>
             <when state="Emote" output="&#x2E10;[&#x2022;-&#x2022;]&#x2E11;"/>
             <when state="Greek" output="&#x03B2;"/>
