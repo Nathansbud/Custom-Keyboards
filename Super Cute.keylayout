@@ -2,8 +2,8 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Keylayout which exploits dead key states to embed many things (greek letters, emoji, emotes, text macros...) into a single keyboard, rather than needing many...god bless dead key states!-->
 <!---->
-<!--Last edited by Ukelele version 3.3.0.249 on 2020-01-12 at 20:41 (GMT+5:30)-->
-<keyboard group="126" id="-4452" name="Super Cute" maxout="8">
+<!--Last edited by Ukelele version 3.3.0.249 on 2020-02-12 at 15:09 (GMT+5:30)-->
+<keyboard group="126" id="-31688" name="Super Cute" maxout="8">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -1399,7 +1399,7 @@
             <when state="Greek" output="&#x03B6;"/>
         </action>
         <action id="action 11">
-            <when state="none" output=""/>
+            <when state="none" output="&#x2248;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;&#x0027;&#x0027;]"/>
             <when state="Greek" output="&#x03C7;"/>
             <when state="Math" output="&#x2248;"/>
@@ -1549,6 +1549,7 @@
         </action>
         <action id="action 4">
             <when state="none" output=""/>
+            <when state="Emoji" output="&#x1F576;"/>
             <when state="Emote" output="&#x2E10;[&#x2022;-&#x2022;]&#x2E11;"/>
             <when state="Greek" output="&#x03B2;"/>
             <when state="Math" output="&#x2227;"/>
@@ -1584,7 +1585,7 @@
             <when state="Greek" output="&#x03C2;"/>
         </action>
         <action id="action 47">
-            <when state="none" output="thinking"/>
+            <when state="none" output=""/>
             <when state="Emote" output="[&#x2022;-&#x2022;]7"/>
         </action>
         <action id="action 48">
@@ -1592,7 +1593,7 @@
             <when state="Symbols" output="0&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 49">
-            <when state="none" output=""/>
+            <when state="none" output="&#x00B0;"/>
             <when state="Math" output="0"/>
             <when state="Symbols" output="&#x2652;&#xFE0F;"/>
         </action>
@@ -1703,7 +1704,7 @@
         </action>
         <action id="b">
             <when state="none" output="b"/>
-            <when state="Emoji" output="&#x1F576;"/>
+            <when state="Emoji" output="&#x1F633;"/>
             <when state="Emote" output="&#x2E10;[&#x2022;-&#x2022;]&#x2E11;"/>
             <when state="Greek" output="&#x03B2;"/>
             <when state="Math" output="&#x2227;"/>
