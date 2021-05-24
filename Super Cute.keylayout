@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Keylayout which exploits dead key states to embed many things (greek letters, emoji, emotes, text macros...) into a single keyboard, rather than needing many...god bless dead key states!-->
 <!---->
-<!--Last edited by Ukelele version 3.4.2.314 on 2021-05-24 at 01:12 (PDT)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2021-05-24 at 01:20 (PDT)-->
 <keyboard group="126" id="-2247" name="Super Cute" maxout="8">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -1683,7 +1683,7 @@
             <when state="Math" output="&#x2202;"/>
         </action>
         <action id="action 1">
-            <when state="none" output=""/>
+            <when state="none" next="Emote"/>
             <when state="Emoji" output="&#x1F378;"/>
             <when state="Greek" output="&#x0394;"/>
         </action>
@@ -1850,7 +1850,7 @@
             <when state="Greek" output="&#x039E;"/>
         </action>
         <action id="action 34">
-            <when state="none" output=""/>
+            <when state="none" next="Math"/>
             <when state="Emoji" output="&#x1F44B;"/>
             <when state="Greek" output="&#x0397;"/>
             <when state="Math" output="&#x222C;"/>
@@ -1896,12 +1896,12 @@
             <when state="Greek" output="&#x039C;"/>
         </action>
         <action id="action 41">
-            <when state="none" output=""/>
+            <when state="none" next="Greek"/>
             <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;"/>
             <when state="Greek" output="&#x0393;"/>
         </action>
         <action id="action 42">
-            <when state="none" output=""/>
+            <when state="none" next="Emoji"/>
             <when state="Greek" output="&#x03A6;"/>
         </action>
         <action id="action 43">
@@ -1915,7 +1915,7 @@
             <when state="Joiners" output="&#x264A;"/>
         </action>
         <action id="action 45">
-            <when state="none" output=""/>
+            <when state="none" next="Joiners"/>
             <when state="Greek" output="&#x03A1;"/>
             <when state="Joiners" output="&#x264B;"/>
             <when state="Math" output="&#x211D;"/>
