@@ -2,8 +2,8 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Keylayout which exploits dead key states to embed many things (greek letters, emoji, emotes, text macros...) into a single keyboard, rather than needing many...god bless dead key states!-->
 <!---->
-<!--Last edited by Ukelele version 3.4.2.314 on 2021-05-24 at 01:20 (PDT)-->
-<keyboard group="126" id="-2247" name="Super Cute" maxout="8">
+<!--Last edited by Ukelele version 3.4.2.314 on 2022-04-25 at 03:36 (EDT)-->
+<keyboard group="126" id="-13807" name="Super Cute" maxout="8">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -1183,7 +1183,6 @@
     <actions>
         <action id="!">
             <when state="none" output="!"/>
-            <when state="Emoji" output="&#x1F7E5;"/>
             <when state="Joiners" output="1&#xFE0F;&#x20E3;"/>
         </action>
         <action id="! 1">
@@ -1192,7 +1191,7 @@
         </action>
         <action id="#">
             <when state="none" output="#"/>
-            <when state="Emoji" output="&#x1F7E8;"/>
+            <when state="Emoji" output="&#x1F7E7;"/>
             <when state="Joiners" output="3&#xFE0F;&#x20E3;"/>
         </action>
         <action id="# 1">
@@ -1201,7 +1200,7 @@
         </action>
         <action id="$">
             <when state="none" output="$"/>
-            <when state="Emoji" output="&#x1F7E9;"/>
+            <when state="Emoji" output="&#x1F7E8;"/>
             <when state="Joiners" output="4&#xFE0F;&#x20E3;"/>
         </action>
         <action id="$ 1">
@@ -1210,7 +1209,7 @@
         </action>
         <action id="%">
             <when state="none" output="%"/>
-            <when state="Emoji" output="&#x1F7E6;"/>
+            <when state="Emoji" output="&#x1F7E9;"/>
             <when state="Joiners" output="5&#xFE0F;&#x20E3;"/>
         </action>
         <action id="% 1">
@@ -1219,7 +1218,7 @@
         </action>
         <action id="&#x0026;">
             <when state="none" output="&#x0026;"/>
-            <when state="Emoji" output="&#x2B1B;"/>
+            <when state="Emoji" output="&#x1F7EA;"/>
             <when state="Joiners" output="7&#xFE0F;&#x20E3;"/>
         </action>
         <action id="&#x0027;">
@@ -1228,20 +1227,22 @@
         </action>
         <action id="(">
             <when state="none" output="("/>
-            <when state="Emoji" output="&#x1F7EB;"/>
+            <when state="Emoji" output="&#x2B1C;"/>
             <when state="Joiners" output="9&#xFE0F;&#x20E3;"/>
         </action>
         <action id=")">
             <when state="none" output=")"/>
+            <when state="Emoji" output="&#x1F7EB;"/>
             <when state="Joiners" output="0&#xFE0F;&#x20E3;"/>
         </action>
         <action id="*">
             <when state="none" output="*"/>
-            <when state="Emoji" output="&#x2B1C;"/>
+            <when state="Emoji" output="&#x2B1B;"/>
             <when state="Joiners" output="8&#xFE0F;&#x20E3;"/>
         </action>
         <action id="+">
             <when state="none" output="+"/>
+            <when state="Emoji" output="&#x1F4C9;"/>
             <when state="Joiners" output="&#x1F522;"/>
         </action>
         <action id=",">
@@ -1251,6 +1252,7 @@
         </action>
         <action id="-">
             <when state="none" output="-"/>
+            <when state="Emoji" output="&#x1F4AF;"/>
             <when state="Joiners" output="&#x1F9B1;"/>
         </action>
         <action id=".">
@@ -1261,64 +1263,66 @@
         <action id="/">
             <when state="none" output="/"/>
             <when state="Emoji" output="&#x1F195;"/>
+            <when state="IPA" output="&#x0294;"/>
             <when state="Math" output="&#x00F7;"/>
         </action>
         <action id="0">
             <when state="none" output="0"/>
+            <when state="Emoji" output="&#x1F90E;"/>
             <when state="Joiners" output="&#x1F9B0;"/>
             <when state="Math" output="0"/>
         </action>
         <action id="1">
             <when state="none" output="1"/>
-            <when state="Emoji" output="&#x2764;&#xFE0F;"/>
+            <when state="Emoji" output="&#x203C;&#xFE0F;"/>
             <when state="Joiners" output="&#x1F3FB;"/>
             <when state="Math" output="1"/>
         </action>
         <action id="2">
             <when state="none" output="2"/>
-            <when state="Emoji" output="&#x1F9E1;"/>
+            <when state="Emoji" output="&#x2764;&#xFE0F;"/>
             <when state="Joiners" output="&#x1F3FC;"/>
             <when state="Math" output="2"/>
         </action>
         <action id="3">
             <when state="none" output="3"/>
-            <when state="Emoji" output="&#x1F49B;"/>
+            <when state="Emoji" output="&#x1F9E1;"/>
             <when state="Joiners" output="&#x1F3FD;"/>
             <when state="Math" output="3"/>
         </action>
         <action id="4">
             <when state="none" output="4"/>
-            <when state="Emoji" output="&#x1F49A;"/>
+            <when state="Emoji" output="&#x1F49B;"/>
             <when state="Joiners" output="&#x1F3FE;"/>
             <when state="Math" output="4"/>
         </action>
         <action id="5">
             <when state="none" output="5"/>
-            <when state="Emoji" output="&#x1F499;"/>
+            <when state="Emoji" output="&#x1F49A;"/>
             <when state="Joiners" output="&#x1F3FF;"/>
             <when state="Math" output="5"/>
         </action>
         <action id="6">
             <when state="none" output="6"/>
-            <when state="Emoji" output="&#x1F49C;"/>
+            <when state="Emoji" output="&#x1F499;"/>
             <when state="Joiners" output="&#x1F468;"/>
             <when state="Math" output="6"/>
         </action>
         <action id="7">
             <when state="none" output="7"/>
-            <when state="Emoji" output="&#x1F5A4;"/>
+            <when state="Emoji" output="&#x1F49C;"/>
             <when state="Joiners" output="&#x1F469;"/>
             <when state="Math" output="7"/>
         </action>
         <action id="8">
             <when state="none" output="8"/>
-            <when state="Emoji" output="&#x1F90D;"/>
+            <when state="Emoji" output="&#x1F5A4;"/>
             <when state="Joiners" output="&#x1F9D1;"/>
             <when state="Math" output="8"/>
         </action>
         <action id="9">
             <when state="none" output="9"/>
-            <when state="Emoji" output="&#x1F90E;"/>
+            <when state="Emoji" output="&#x1F90D;"/>
             <when state="Joiners" output="&#x1F9B3;"/>
             <when state="Math" output="9"/>
         </action>
@@ -1337,6 +1341,7 @@
         </action>
         <action id="=">
             <when state="none" output="="/>
+            <when state="Emoji" output="&#x1F4C8;"/>
             <when state="Joiners" output="&#x1F9B2;"/>
             <when state="Math" output="&#x2260;"/>
         </action>
@@ -1346,7 +1351,7 @@
         </action>
         <action id="@">
             <when state="none" output="@"/>
-            <when state="Emoji" output="&#x1F7E7;"/>
+            <when state="Emoji" output="&#x1F7E5;"/>
             <when state="Joiners" output="2&#xFE0F;&#x20E3;"/>
         </action>
         <action id="@ 1">
@@ -1357,6 +1362,7 @@
             <when state="none" output="A"/>
             <when state="Acute" output="&#x00C1;"/>
             <when state="Circumflex" output="&#x00C2;"/>
+            <when state="Emoji" output="&#x1F4F8;"/>
             <when state="Grave" output="&#x00C0;"/>
             <when state="Greek" output="&#x0391;"/>
             <when state="Tilde" output="&#x00C3;"/>
@@ -1424,7 +1430,7 @@
         </action>
         <action id="G">
             <when state="none" output="G"/>
-            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;"/>
+            <when state="Emoji" output="&#x1F62C;"/>
             <when state="Greek" output="&#x0393;"/>
         </action>
         <action id="G 1">
@@ -1433,7 +1439,7 @@
         </action>
         <action id="GREEK_LETTERS">
             <when state="none" next="Greek"/>
-            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;"/>
+            <when state="Emoji" output="&#x1F62E;&#x200D;&#x1F4A8;"/>
             <when state="Emote" output="&#x2E0C;[&#x2022;-&#x2022;]&#x2E0D;"/>
             <when state="Greek" output="&#x03B3;"/>
             <when state="Joiners" output="&#x1F1EC;"/>
@@ -1456,7 +1462,7 @@
             <when state="Grave" output="&#x00CC;"/>
             <when state="Greek" output="&#x0399;"/>
             <when state="Joiners" output="&#x264F;"/>
-            <when state="Math" output="&#x2124;"/>
+            <when state="Math" output="&#x211A;"/>
             <when state="Umlaut" output="&#x00CF;"/>
         </action>
         <action id="I 1">
@@ -1534,8 +1540,9 @@
         </action>
         <action id="Q">
             <when state="none" output="Q"/>
+            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;"/>
             <when state="Joiners" output="&#x2648;"/>
-            <when state="Math" output="&#x211A;"/>
+            <when state="Math" output="&#x22A8;"/>
         </action>
         <action id="Q 1">
             <when state="none" output="Q"/>
@@ -1543,6 +1550,7 @@
         </action>
         <action id="R">
             <when state="none" output="R"/>
+            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;"/>
             <when state="Greek" output="&#x03A1;"/>
             <when state="Joiners" output="&#x264B;"/>
             <when state="Math" output="&#x211D;"/>
@@ -1553,7 +1561,7 @@
         </action>
         <action id="S">
             <when state="none" output="S"/>
-            <when state="Emoji" output="&#x1F975;"/>
+            <when state="Emoji" output="&#x1F4A6;"/>
             <when state="Greek" output="&#x03A3;"/>
         </action>
         <action id="S 1">
@@ -1573,6 +1581,7 @@
             <when state="none" output="U"/>
             <when state="Acute" output="&#x00DA;"/>
             <when state="Circumflex" output="&#x00DB;"/>
+            <when state="Emoji" output="&#x1F979;"/>
             <when state="Grave" output="&#x00D9;"/>
             <when state="Greek" output="&#x0398;"/>
             <when state="Joiners" output="&#x264E;"/>
@@ -1584,7 +1593,7 @@
         </action>
         <action id="V">
             <when state="none" output="V"/>
-            <when state="Emoji" output="&#x1F610;"/>
+            <when state="Emoji" output="&#x1F92F;"/>
             <when state="Greek" output="&#x03A9;"/>
             <when state="Math" output="&#x221B;"/>
         </action>
@@ -1595,6 +1604,7 @@
         <action id="W">
             <when state="none" output="W"/>
             <when state="Joiners" output="&#x2649;"/>
+            <when state="Math" output="&#x2AE4;&#x22A8;"/>
         </action>
         <action id="W 1">
             <when state="none" output="W"/>
@@ -1602,6 +1612,7 @@
         </action>
         <action id="X">
             <when state="none" output="X"/>
+            <when state="Emoji" output="&#x1F480;"/>
             <when state="Greek" output="&#x03A7;"/>
         </action>
         <action id="X 1">
@@ -1622,6 +1633,7 @@
             <when state="none" output="Z"/>
             <when state="Emoji" output="&#x1F4A4;"/>
             <when state="Greek" output="&#x0396;"/>
+            <when state="Math" output="&#x2124;"/>
         </action>
         <action id="Z 1">
             <when state="none" output="Z"/>
@@ -1630,21 +1642,26 @@
         <action id="[">
             <when state="none" output="["/>
             <when state="Emoji" output="&#x1F947;"/>
+            <when state="IPA" output="&#x27E8;"/>
             <when state="Joiners" output="&#x1F466;"/>
+            <when state="Math" output="&#x22A4;"/>
         </action>
         <action id="\">
             <when state="none" output="\"/>
             <when state="Emoji" output="&#x1F949;"/>
             <when state="Joiners" output="&#x1F9D2;"/>
+            <when state="Math" output="&#x22A2;"/>
         </action>
         <action id="]">
             <when state="none" output="]"/>
             <when state="Emoji" output="&#x1F948;"/>
+            <when state="IPA" output="&#x27E9;"/>
             <when state="Joiners" output="&#x1F467;"/>
+            <when state="Math" output="&#x22A5;"/>
         </action>
         <action id="^">
             <when state="none" output="^"/>
-            <when state="Emoji" output="&#x1F7EA;"/>
+            <when state="Emoji" output="&#x1F7E6;"/>
             <when state="Joiners" output="6&#xFE0F;&#x20E3;"/>
         </action>
         <action id="_">
@@ -1659,13 +1676,14 @@
         <action id="` 1">
             <when state="none" output="`"/>
             <when state="Emoji" output="&#x1F494;"/>
+            <when state="IPA" output="&#x02D0;"/>
             <when state="Joiners" output="&#x200D;"/>
         </action>
         <action id="a">
             <when state="none" output="a"/>
             <when state="Acute" output="&#x00E1;"/>
             <when state="Circumflex" output="&#x00E2;"/>
-            <when state="Emoji" output="&#x1F47D;"/>
+            <when state="Emoji" output="&#x1F6A8;"/>
             <when state="Emote" output="&#x291A;[&#x2022;-&#x2022;]&#x2919; "/>
             <when state="Grave" output="&#x00E0;"/>
             <when state="Greek" output="&#x03B1;"/>
@@ -1692,11 +1710,12 @@
             <when state="Emoji" output="&#x1F634;"/>
             <when state="Emote" output="[&#x0027;&#x0027;&#x2022;-&#x2022;]"/>
             <when state="Greek" output="&#x03B6;"/>
+            <when state="IPA" output="d&#x0361;&#x0292;"/>
             <when state="Joiners" output="&#x1F1FF;"/>
         </action>
         <action id="action 11">
             <when state="none" output="&#x2248;"/>
-            <when state="Emoji" output="&#x1F480;"/>
+            <when state="Emoji" output="&#x1F970;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;&#x0027;&#x0027;]"/>
             <when state="Greek" output="&#x03C7;"/>
             <when state="Joiners" output="&#x1F1FD;"/>
@@ -1755,15 +1774,16 @@
         </action>
         <action id="action 19">
             <when state="none" next="Umlaut"/>
-            <when state="Emoji" output="&#x1F92F;"/>
+            <when state="Emoji" output="&#x1F97A;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;]&#x1353;"/>
             <when state="Greek" output="&#x03B8;"/>
+            <when state="IPA" output="&#x028C;"/>
             <when state="Joiners" output="&#x1F1FA;"/>
             <when state="Math" output="&#x221F;"/>
         </action>
         <action id="action 2">
             <when state="none" next="Tilde"/>
-            <when state="Emoji" output="&#x1F97A;"/>
+            <when state="Emoji" output="&#x1F610;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;]"/>
             <when state="Greek" output="&#x03BD;"/>
             <when state="Joiners" output="&#x1F1F3;"/>
@@ -1792,7 +1812,9 @@
         </action>
         <action id="action 23">
             <when state="none" output=""/>
+            <when state="Emoji" output="&#x1F4F8;"/>
             <when state="Greek" output="&#x0391;"/>
+            <when state="Math" output="&#x22AD;"/>
         </action>
         <action id="action 24">
             <when state="none" output=""/>
@@ -1806,18 +1828,21 @@
         </action>
         <action id="action 26">
             <when state="none" output=""/>
+            <when state="Emoji" output="&#x1F480;"/>
             <when state="Greek" output="&#x03A7;"/>
         </action>
         <action id="action 27">
             <when state="none" output=""/>
             <when state="Emoji" output="&#x1F4A4;"/>
             <when state="Greek" output="&#x0396;"/>
+            <when state="Math" output="&#x2124;"/>
         </action>
         <action id="action 28">
             <when state="none" output=""/>
             <when state="Emoji" output="&#x1F95C;"/>
             <when state="Greek" output="&#x03A0;"/>
             <when state="Joiners" output="&#x2651;"/>
+            <when state="Math" output="&#x2115;"/>
         </action>
         <action id="action 29">
             <when state="none" output=""/>
@@ -1825,8 +1850,8 @@
             <when state="Joiners" output="&#x2650;"/>
         </action>
         <action id="action 3">
-            <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F47D;"/>
+            <when state="none" next="IPA"/>
+            <when state="Emoji" output="&#x1F6A8;"/>
             <when state="Emote" output="&#x291A;[&#x2022;-&#x2022;]&#x2919; "/>
             <when state="Greek" output="&#x03B1;"/>
             <when state="Joiners" output="&#x1F1E6;"/>
@@ -1836,6 +1861,7 @@
             <when state="none" output=""/>
             <when state="Greek" output="&#x0399;"/>
             <when state="Joiners" output="&#x264F;"/>
+            <when state="Math" output="&#x211A;"/>
         </action>
         <action id="action 31">
             <when state="none" output=""/>
@@ -1867,12 +1893,13 @@
         </action>
         <action id="action 37">
             <when state="none" output=""/>
+            <when state="Emoji" output="&#x1F979;"/>
             <when state="Greek" output="&#x0398;"/>
             <when state="Joiners" output="&#x264E;"/>
         </action>
         <action id="action 38">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F610;"/>
+            <when state="Emoji" output="&#x1F92F;"/>
             <when state="Greek" output="&#x03A9;"/>
             <when state="Math" output="&#x221B;"/>
         </action>
@@ -1897,7 +1924,7 @@
         </action>
         <action id="action 41">
             <when state="none" next="Greek"/>
-            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;"/>
+            <when state="Emoji" output="&#x1F62C;"/>
             <when state="Greek" output="&#x0393;"/>
         </action>
         <action id="action 42">
@@ -1906,8 +1933,9 @@
         </action>
         <action id="action 43">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F975;"/>
+            <when state="Emoji" output="&#x1F4A6;"/>
             <when state="Greek" output="&#x03A3;"/>
+            <when state="Math" output="&#x2AE4;&#x22AD;"/>
         </action>
         <action id="action 44">
             <when state="none" output=""/>
@@ -1916,6 +1944,7 @@
         </action>
         <action id="action 45">
             <when state="none" next="Joiners"/>
+            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;"/>
             <when state="Greek" output="&#x03A1;"/>
             <when state="Joiners" output="&#x264B;"/>
             <when state="Math" output="&#x211D;"/>
@@ -1926,19 +1955,23 @@
             <when state="Emote" output="&#x2514;[&#x2022;-&#x2022;]&#x2518;"/>
             <when state="Greek" output="&#x03C2;"/>
             <when state="Joiners" output="&#x1F1FC;"/>
+            <when state="Math" output="&#x2261;"/>
         </action>
         <action id="action 47">
             <when state="none" output=""/>
             <when state="Emoji" output="&#x1F914;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;]7"/>
             <when state="Joiners" output="&#x1F1F6;"/>
+            <when state="Math" output="&#x2283;"/>
         </action>
         <action id="action 48">
             <when state="none" output=""/>
+            <when state="Emoji" output="&#x1F7EB;"/>
             <when state="Joiners" output="0&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 49">
             <when state="none" output="&#x00B0;"/>
+            <when state="Emoji" output="&#x1F90E;"/>
             <when state="Joiners" output="&#x1F9B0;"/>
             <when state="Math" output="0"/>
         </action>
@@ -1952,59 +1985,58 @@
         </action>
         <action id="action 50">
             <when state="none" output="&#x2122;"/>
-            <when state="Emoji" output="&#x1F9E1;"/>
+            <when state="Emoji" output="&#x2764;&#xFE0F;"/>
             <when state="Joiners" output="&#x1F3FC;"/>
             <when state="Math" output="2"/>
         </action>
         <action id="action 51">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F49B;"/>
+            <when state="Emoji" output="&#x1F9E1;"/>
             <when state="Joiners" output="&#x1F3FD;"/>
             <when state="Math" output="3"/>
         </action>
         <action id="action 52">
             <when state="none" output="&#x00A2;"/>
-            <when state="Emoji" output="&#x1F49A;"/>
+            <when state="Emoji" output="&#x1F49B;"/>
             <when state="Joiners" output="&#x1F3FE;"/>
             <when state="Math" output="4"/>
         </action>
         <action id="action 53">
             <when state="none" output="&#x221E;"/>
-            <when state="Emoji" output="&#x1F499;"/>
+            <when state="Emoji" output="&#x1F49A;"/>
             <when state="Joiners" output="&#x1F3FF;"/>
             <when state="Math" output="5"/>
         </action>
         <action id="action 54">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F49C;"/>
+            <when state="Emoji" output="&#x1F499;"/>
             <when state="Joiners" output="&#x1F468;"/>
             <when state="Math" output="6"/>
         </action>
         <action id="action 55">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F5A4;"/>
+            <when state="Emoji" output="&#x1F49C;"/>
             <when state="Joiners" output="&#x1F469;"/>
             <when state="Math" output="7"/>
         </action>
         <action id="action 56">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F90E;"/>
+            <when state="Emoji" output="&#x1F90D;"/>
             <when state="Joiners" output="&#x1F9B3;"/>
             <when state="Math" output="9"/>
         </action>
         <action id="action 57">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F7E5;"/>
             <when state="Joiners" output="1&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 58">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F7E7;"/>
+            <when state="Emoji" output="&#x1F7E5;"/>
             <when state="Joiners" output="2&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 59">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F7E8;"/>
+            <when state="Emoji" output="&#x1F7E7;"/>
             <when state="Joiners" output="3&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 6">
@@ -2017,32 +2049,32 @@
         </action>
         <action id="action 60">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F7E9;"/>
+            <when state="Emoji" output="&#x1F7E8;"/>
             <when state="Joiners" output="4&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 61">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F7E6;"/>
+            <when state="Emoji" output="&#x1F7E9;"/>
             <when state="Joiners" output="5&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 62">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F7EA;"/>
+            <when state="Emoji" output="&#x1F7E6;"/>
             <when state="Joiners" output="6&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 63">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x2B1B;"/>
+            <when state="Emoji" output="&#x1F7EA;"/>
             <when state="Joiners" output="7&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 64">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x2B1C;"/>
+            <when state="Emoji" output="&#x2B1B;"/>
             <when state="Joiners" output="8&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 65">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F7EB;"/>
+            <when state="Emoji" output="&#x2B1C;"/>
             <when state="Joiners" output="9&#xFE0F;&#x20E3;"/>
         </action>
         <action id="action 66">
@@ -2059,18 +2091,22 @@
             <when state="none" output=""/>
             <when state="Emoji" output="&#x1F949;"/>
             <when state="Joiners" output="&#x1F9D2;"/>
+            <when state="Math" output="&#x22A2;"/>
         </action>
         <action id="action 69">
             <when state="none" output=""/>
+            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;"/>
             <when state="Joiners" output="&#x2648;"/>
+            <when state="Math" output="&#x22A8;"/>
         </action>
         <action id="action 7">
             <when state="none" next="Joiners"/>
             <when state="Emoji" output="&#x1F308;"/>
             <when state="Emote" output="&#x239D;[&#x2022;-&#x2022;]&#x23A0;"/>
             <when state="Greek" output="&#x03C1;"/>
+            <when state="IPA" output="&#x0279;"/>
             <when state="Joiners" output="&#x1F1F7;"/>
-            <when state="Math" output="&#x2124;"/>
+            <when state="Math" output="&#x00AC;"/>
         </action>
         <action id="action 70">
             <when state="none" output=""/>
@@ -2078,7 +2114,7 @@
         </action>
         <action id="action 8">
             <when state="none" output="&#x03B8;"/>
-            <when state="Emoji" output="&#x1F9B4;"/>
+            <when state="Emoji" output="&#x1F928;"/>
             <when state="Emote" output="&#x2570;[&#x2022;-&#x2022;]&#x256F;"/>
             <when state="Greek" output="&#x03C4;"/>
             <when state="Joiners" output="&#x1F1F9;"/>
@@ -2086,9 +2122,10 @@
         </action>
         <action id="action 9">
             <when state="none" output=""/>
-            <when state="Emoji" output="&#x1F4A6;"/>
+            <when state="Emoji" output="&#x1F975;"/>
             <when state="Emote" output="&#x27C5;[&#x2022;-&#x2022;]&#x27C6;"/>
             <when state="Greek" output="&#x03C3;"/>
+            <when state="IPA" output="t&#x0361;&#x0283;"/>
             <when state="Joiners" output="&#x1F1F8;"/>
             <when state="Math" output="&#x22C3;"/>
         </action>
@@ -2138,9 +2175,10 @@
         </action>
         <action id="g">
             <when state="none" output="g"/>
-            <when state="Emoji" output="&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;"/>
+            <when state="Emoji" output="&#x1F62E;&#x200D;&#x1F4A8;"/>
             <when state="Emote" output="&#x2E0C;[&#x2022;-&#x2022;]&#x2E0D;"/>
             <when state="Greek" output="&#x03B3;"/>
+            <when state="IPA" output="&#x0263;"/>
             <when state="Joiners" output="&#x1F1EC;"/>
             <when state="Math" output="&#x2207;"/>
         </action>
@@ -2199,9 +2237,10 @@
         </action>
         <action id="n">
             <when state="none" output="n"/>
-            <when state="Emoji" output="&#x1F97A;"/>
+            <when state="Emoji" output="&#x1F610;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;]"/>
             <when state="Greek" output="&#x03BD;"/>
+            <when state="IPA" output="&#x014B;"/>
             <when state="Joiners" output="&#x1F1F3;"/>
             <when state="Math" output="&#x2228;"/>
             <when state="Tilde" output="&#x00F1;"/>
@@ -2230,28 +2269,32 @@
             <when state="Emoji" output="&#x1F914;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;]7"/>
             <when state="Joiners" output="&#x1F1F6;"/>
+            <when state="Math" output="&#x2283;"/>
         </action>
         <action id="r">
             <when state="none" output="r"/>
             <when state="Emoji" output="&#x1F308;"/>
             <when state="Emote" output="&#x239D;[&#x2022;-&#x2022;]&#x23A0;"/>
             <when state="Greek" output="&#x03C1;"/>
+            <when state="IPA" output="&#x027E;"/>
             <when state="Joiners" output="&#x1F1F7;"/>
-            <when state="Math" output="&#x2124;"/>
+            <when state="Math" output="&#x00AC;"/>
         </action>
         <action id="s">
             <when state="none" output="s"/>
-            <when state="Emoji" output="&#x1F4A6;"/>
+            <when state="Emoji" output="&#x1F975;"/>
             <when state="Emote" output="&#x27C5;[&#x2022;-&#x2022;]&#x27C6;"/>
             <when state="Greek" output="&#x03C3;"/>
+            <when state="IPA" output="&#x0283;"/>
             <when state="Joiners" output="&#x1F1F8;"/>
             <when state="Math" output="&#x22C3;"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
-            <when state="Emoji" output="&#x1F9B4;"/>
+            <when state="Emoji" output="&#x1F928;"/>
             <when state="Emote" output="&#x2570;[&#x2022;-&#x2022;]&#x256F;"/>
             <when state="Greek" output="&#x03C4;"/>
+            <when state="IPA" output="&#x00F0;"/>
             <when state="Joiners" output="&#x1F1F9;"/>
             <when state="Math" output="&#x2225;"/>
         </action>
@@ -2259,10 +2302,11 @@
             <when state="none" output="u"/>
             <when state="Acute" output="&#x00FA;"/>
             <when state="Circumflex" output="&#x00FB;"/>
-            <when state="Emoji" output="&#x1F92F;"/>
+            <when state="Emoji" output="&#x1F97A;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;]&#x1353;"/>
             <when state="Grave" output="&#x00F9;"/>
             <when state="Greek" output="&#x03B8;"/>
+            <when state="IPA" output="&#x0259;"/>
             <when state="Joiners" output="&#x1F1FA;"/>
             <when state="Math" output="&#x221F;"/>
             <when state="Umlaut" output="&#x00FC;"/>
@@ -2281,10 +2325,11 @@
             <when state="Emote" output="&#x2514;[&#x2022;-&#x2022;]&#x2518;"/>
             <when state="Greek" output="&#x03C2;"/>
             <when state="Joiners" output="&#x1F1FC;"/>
+            <when state="Math" output="&#x2261;"/>
         </action>
         <action id="x">
             <when state="none" output="x"/>
-            <when state="Emoji" output="&#x1F480;"/>
+            <when state="Emoji" output="&#x1F970;"/>
             <when state="Emote" output="[&#x2022;-&#x2022;&#x0027;&#x0027;]"/>
             <when state="Greek" output="&#x03C7;"/>
             <when state="Joiners" output="&#x1F1FD;"/>
@@ -2304,7 +2349,9 @@
             <when state="Emoji" output="&#x1F634;"/>
             <when state="Emote" output="[&#x0027;&#x0027;&#x2022;-&#x2022;]"/>
             <when state="Greek" output="&#x03B6;"/>
+            <when state="IPA" output="&#x0292;"/>
             <when state="Joiners" output="&#x1F1FF;"/>
+            <when state="Math" output="&#x00D8;"/>
         </action>
         <action id="{">
             <when state="none" output="{"/>
@@ -2324,12 +2371,13 @@
         </action>
         <action id="&#x00A1;">
             <when state="none" output="&#x00A1;"/>
-            <when state="Emoji" output="&#x2764;&#xFE0F;"/>
+            <when state="Emoji" output="&#x203C;&#xFE0F;"/>
             <when state="Joiners" output="&#x1F3FB;"/>
             <when state="Math" output="1"/>
         </action>
         <action id="&#x00B1;">
             <when state="none" output="&#x00B1;"/>
+            <when state="Emoji" output="&#x1F4C9;"/>
             <when state="Joiners" output="&#x1F522;"/>
         </action>
         <action id="&#x00BF;">
@@ -2343,6 +2391,7 @@
         </action>
         <action id="&#x2013;">
             <when state="none" output="&#x2013;"/>
+            <when state="Emoji" output="&#x1F4AF;"/>
             <when state="Joiners" output="&#x1F9B1;"/>
         </action>
         <action id="&#x2014;">
@@ -2351,7 +2400,7 @@
         </action>
         <action id="&#x2022;">
             <when state="none" output="&#x2022;"/>
-            <when state="Emoji" output="&#x1F90D;"/>
+            <when state="Emoji" output="&#x1F5A4;"/>
             <when state="Joiners" output="&#x1F9D1;"/>
             <when state="Math" output="8"/>
         </action>
@@ -2359,6 +2408,7 @@
             <when state="none" output="&#x2190;"/>
             <when state="Emoji" output="&#x1F948;"/>
             <when state="Joiners" output="&#x1F467;"/>
+            <when state="Math" output="&#x22A5;"/>
         </action>
         <action id="&#x2191;">
             <when state="none" output="&#x2191;"/>
@@ -2368,6 +2418,7 @@
             <when state="none" output="&#x2192;"/>
             <when state="Emoji" output="&#x1F947;"/>
             <when state="Joiners" output="&#x1F466;"/>
+            <when state="Math" output="&#x22A4;"/>
         </action>
         <action id="&#x2193;">
             <when state="none" output="&#x2193;"/>
@@ -2375,6 +2426,7 @@
         </action>
         <action id="&#x2260;">
             <when state="none" output="&#x2260;"/>
+            <when state="Emoji" output="&#x1F4C8;"/>
             <when state="Joiners" output="&#x1F9B2;"/>
             <when state="Math" output="&#x2260;"/>
         </action>
@@ -2391,6 +2443,7 @@
         <action id="&#x2514;[&#x2022;-&#x2022;]&#x2518;">
             <when state="none" output="&#x2514;[&#x2022;-&#x2022;]&#x2518;"/>
             <when state="Joiners" output="&#x2649;"/>
+            <when state="Math" output="&#x2AE4;&#x22A8;"/>
         </action>
     </actions>
     <terminators>
@@ -2400,6 +2453,7 @@
         <when state="Emote" output="E"/>
         <when state="Grave" output="`"/>
         <when state="Greek" output="G"/>
+        <when state="IPA" output="A"/>
         <when state="Joiners" output="S"/>
         <when state="Math" output="M"/>
         <when state="Tilde" output="&#x02DC;"/>
