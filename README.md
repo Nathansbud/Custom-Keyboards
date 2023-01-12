@@ -15,6 +15,6 @@
  
 <h2>Known Issues</h2>
 <ul>
-  <li>Keys cannot output more than 20 keys at a time<ul><li>Easiest solution is to just use text replacement (under System Preferences > Keyboard > Text) in order to handle paragraphs/sentences)</li></ul></li>
+  <li>Keys cannot output more than 20 keys at a time<ul><li>Easiest solution is to just use text replacement (under System Preferences > Keyboard > Text) in order to handle paragraphs/sentences</li></ul></li>
   <li>Ukelele cannot handle a maxout value >8 for any key—any key outputting >8 characters will crash Ukelele on save<ul><li>Crash is not 100% certain (can just keep trying until it doesn't crash), but makes editing the keyboard supremely unstable...</li></ul></li>  
 </ul>
